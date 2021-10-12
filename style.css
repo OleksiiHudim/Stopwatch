@@ -1,0 +1,104 @@
+* {
+  background-color: black;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  width: 500px;
+  font-size: 5rem;
+  margin-bottom: 75px;
+  border-bottom: 1px solid yellow;
+}
+
+.container {
+  height: 350px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 150px auto;
+}
+
+.time_display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.time_display .time {
+  height: 50px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  border-bottom: 1px solid white;
+}
+
+.time_display .title {
+  text-align: center;
+  background-color: rgba(85, 107, 47, 0.219);
+  margin-bottom: 35px;
+  border-radius: 5px 20px;
+  color: rgba(255, 255, 0, 0.5);
+}
+
+.buttons {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttons .button {
+  height: 50px;
+  width: 100px;
+  border: 3px solid whitesmoke;
+  border-radius: 5px 20px;
+  font-size: 1.5rem;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+.buttons .button.start {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.buttons .button.reset {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+
+.buttons .button.button:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
